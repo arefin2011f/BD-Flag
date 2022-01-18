@@ -1,0 +1,74 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1600px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.green{
+	width: 1000px;
+	height: 600px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 350px;
+	height: 350px;
+	background: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 19%;
+	left: 28%;
+}
+.ali{
+	width: 250px;
+	position: fixed;
+	top: 42%;
+	right: -200px;
+	transition: .8s;
+	border: 2px solid #000;
+	border-radius: 25%;
+}
+.ali:hover{
+	right: 0px;
+	cursor: pointer;
+	border: 3px solid red;
+}
+.alien{
+	width: 250px;
+	position: fixed;
+	top: 30%;
+	right: -200px;
+	transition: .8s;
+	border: 2px solid #000;
+	border-radius: 25%;
+}
+.alien:hover{
+	right: 0px;
+	cursor: pointer;
+	border: 3px solid red;
+}
+.amazon{
+	width: 250px;
+	position: fixed;
+	top: 57%;
+	right: -200px;
+	transition: .8s;
+	border: 2px solid #000;
+	border-radius: 25%;
+}
+.amazon:hover{
+	right: 0px;
+	cursor: pointer;
+	border: 3px solid red;
+}
